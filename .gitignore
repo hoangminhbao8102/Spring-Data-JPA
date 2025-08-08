@@ -1,1 +1,76 @@
+# =========================
+# Maven
+# =========================
 /SpringJpaDemo/target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+**/mvnw
+**/mvnw.cmd
+
+# Maven build logs
+log/
+logs/
+*.log
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# =========================
+# NetBeans
+# =========================
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# =========================
+# Eclipse
+# =========================
+.project
+.classpath
+.settings/
+bin/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# =========================
+# Spring Boot specific
+# =========================
+# Application config overrides
+application-*.yml
+application-*.yaml
+application-*.properties
+
+# Profiles
+!application.properties  # giữ file cấu hình mặc định
+
+# =========================
+# Others
+# =========================
+*.war
+*.jar
+*.db
+*.sql
+*.tmp
+*.bak
+*.swp
